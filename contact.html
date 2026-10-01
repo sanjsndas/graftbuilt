@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact · Graft Built Ideas</title>
+  <meta name="description" content="Get in touch with the editorial team at Graft Built Ideas. Story pitches, partnerships, or just to say hello.">
+  <link rel="canonical" href="https://graftbuilideas.com/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact · Graft Built Ideas">
+  <meta property="og:description" content="Reach out to our editorial team — we read every message.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://graftbuilideas.com/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=630&fit=crop">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header (matches index) */
+    .site-header {
+      border-bottom: 1px solid #e3e0db;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .logo-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+
+    .logo span {
+      font-weight: 400;
+      font-style: italic;
+      color: #9b7b5c;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #7a7a7a;
+      font-weight: 400;
+    }
+
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      border-top: 1px solid #e3e0db;
+      padding-top: 16px;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-bar a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #2c2c2c;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .nav-bar a:hover,
+    .nav-bar a.active {
+      border-bottom-color: #9b7b5c;
+    }
+
+    .search-section {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      border: 1px solid #ddd9d2;
+      border-radius: 40px;
+      padding: 6px 16px;
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .search-wrapper input {
+      border: none;
+      background: transparent;
+      padding: 8px 0;
+      font-size: 0.9rem;
+      width: 100%;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+    }
+
+    .search-wrapper button {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #7a7a7a;
+    }
+
+    /* Contact page layout */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 56px;
+      margin: 56px 0 64px;
+    }
+
+    .contact-intro h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .contact-intro p {
+      font-size: 1.1rem;
+      color: #3a3a3a;
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+
+    .contact-details {
+      background: white;
+      border: 1px solid #eae7e2;
+      border-radius: 12px;
+      padding: 36px 32px;
+      margin-bottom: 32px;
+    }
+
+    .contact-details h3 {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+    }
+
+    .detail-item {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      font-size: 0.98rem;
+    }
+
+    .detail-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .detail-icon {
+      font-size: 1.3rem;
+      line-height: 1;
+      color: #9b7b5c;
+      width: 28px;
+      flex-shrink: 0;
+    }
+
+    .detail-item strong {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 2px;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: #7a7a7a;
+    }
+
+    .detail-item a {
+      color: #1e1e1e;
+      border-bottom: 1px solid #ddd9d2;
+      transition: border-color 0.2s;
+    }
+
+    .detail-item a:hover {
+      border-bottom-color: #9b7b5c;
+    }
+
+    /* Form */
+    .contact-form {
+      background: white;
+      border: 1px solid #eae7e2;
+      border-radius: 12px;
+      padding: 36px 32px;
+    }
+
+    .contact-form h3 {
+      font-size: 1.5rem;
+      margin-bottom: 24px;
+    }
+
+    .form-group {
+      margin-bottom: 22px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 6px;
+      color: #4a4a4a;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid #ddd9d2;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.95rem;
+      background: #fdfcfb;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: #9b7b5c;
+      box-shadow: 0 0 0 3px rgba(155, 123, 92, 0.1);
+    }
+
+    .form-group textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .btn-submit {
+      background: #1e1e1e;
+      color: white;
+      border: none;
+      border-radius: 40px;
+      padding: 14px 32px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: background 0.2s, transform 0.1s;
+      width: 100%;
+    }
+
+    .btn-submit:hover {
+      background: #9b7b5c;
+    }
+
+    .btn-submit:active {
+      transform: scale(0.98);
+    }
+
+    .form-note {
+      font-size: 0.8rem;
+      color: #7a7a7a;
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    /* Map placeholder */
+    .map-placeholder {
+      background: #f0ede8;
+      border-radius: 12px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #9b7b5c;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-top: 32px;
+      border: 1px solid #eae7e2;
+    }
+
+    /* FAQ small */
+    .contact-faq {
+      margin-top: 64px;
+      border-top: 1px solid #e3e0db;
+      padding-top: 48px;
+    }
+
+    .contact-faq h2 {
+      margin-bottom: 28px;
+      font-size: 2rem;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eae7e2;
+      padding: 16px 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      font-size: 1.05rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-question::after {
+      content: '+';
+      font-size: 1.4rem;
+      color: #9b7b5c;
+    }
+
+    .faq-item.active .faq-question::after {
+      content: '−';
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      font-size: 0.95rem;
+      color: #4a4a4a;
+      padding-right: 24px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 200px;
+      padding-top: 12px;
+    }
+
+    /* Footer */
+    .site-footer {
+      background: #1e1e1e;
+      color: #d4d0c8;
+      padding: 56px 0 32px;
+      margin-top: 64px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      color: white;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+
+    .footer-grid a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #3a3a3a;
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #9a9a9a;
+    }
+
+    @media (max-width: 1024px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .contact-intro h1 {
+        font-size: 2.2rem;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .nav-bar {
+        gap: 16px;
+      }
+      .logo-area {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-area">
+      <div class="logo">Graft <span>Built Ideas</span></div>
+      <div class="tagline">Architecture · Interiors · Materials</div>
+    </div>
+    <nav class="nav-bar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-section">
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+        <button id="searchButton" aria-label="Search">🔍</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- Contact header + grid -->
+  <div class="contact-grid">
+    <!-- Left: intro + details -->
+    <div>
+      <div class="contact-intro">
+        <h1>Let’s talk design.</h1>
+        <p>Whether you have a story tip, want to collaborate, or simply want to share your thoughts on an article — we’re listening. Our editorial team reads every message.</p>
+      </div>
+
+      <div class="contact-details">
+        <h3>Editorial & general enquiries</h3>
+
+        <div class="detail-item">
+          <span class="detail-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <a href="mailto:hello@graftbuilideas.com">hello@graftbuilideas.com</a><br>
+            <span style="font-size:0.9rem; color:#6b6b6b;">For story pitches: <a href="mailto:pitch@graftbuilideas.com" style="border-bottom:1px solid #ddd9d2;">pitch@graftbuilideas.com</a></span>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <span class="detail-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <a href="tel:+390212345678">+39 02 1234 5678</a>
+            <span style="display:block; font-size:0.85rem; color:#7a7a7a; margin-top:2px;">Mon–Fri, 9:00–18:00 CET</span>
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <span class="detail-icon">📍</span>
+          <div>
+            <strong>Studio</strong>
+            Via Brera 18, 20121 Milano, Italy
+          </div>
+        </div>
+
+        <div class="detail-item">
+          <span class="detail-icon">📬</span>
+          <div>
+            <strong>Postal address</strong>
+            Graft Built Ideas · Casella Postale 47 · 20121 Milano, Italy
+          </div>
+        </div>
+      </div>
+
+      <div class="map-placeholder">
+        🗺️ Map: Via Brera 18, Milano — (visual placeholder)
+      </div>
+    </div>
+
+    <!-- Right: form -->
+    <div>
+      <div class="contact-form">
+        <h3>Send a message</h3>
+        <form id="contactForm" action="#" method="post">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Elena Marchetti" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="general">General enquiry</option>
+              <option value="pitch">Story pitch / editorial</option>
+              <option value="partnership">Partnership / advertising</option>
+              <option value="feedback">Feedback on an article</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="Tell us what’s on your mind…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit">Send message →</button>
+          <p class="form-note">We typically reply within 2–3 working days.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Small FAQ section -->
+  <section class="contact-faq">
+    <h2>Before you write</h2>
+    <div class="faq-item">
+      <div class="faq-question">Do you accept guest articles or story pitches?</div>
+      <div class="faq-answer">Yes, we welcome pitches from architects, designers, and writers. Please send a short synopsis (150–200 words) and a link to your portfolio or previous work to pitch@graftbuilideas.com. We respond to every serious pitch.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">How can I advertise or partner with Graft Built Ideas?</div>
+      <div class="faq-answer">We offer limited, design-led partnership opportunities. For media kits and rates, write to hello@graftbuilideas.com with the subject line “Partnership”. We’re particularly interested in collaborations with sustainable brands and independent makers.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Can I republish or translate an article?</div>
+      <div class="faq-answer">We occasionally allow translations or excerpts. Please reach out with the specific article and your platform details. All content is copyrighted, so we ask that you don’t republish without written permission.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">How do I report a factual error or typo?</div>
+      <div class="faq-answer">Accuracy matters to us. Send an email to hello@graftbuilideas.com with the subject “Correction” and include the article link and the specific detail. We’ll review and update promptly.</div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER (matches index) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="color: white; margin-bottom: 16px;">Graft <span style="color: #b99b7a;">Built Ideas</span></div>
+        <p style="font-size: 0.85rem; max-width: 280px;">An independent editorial publication exploring interior design, architecture, and the built environment.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Space Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Graft Built Ideas. All rights reserved.</span>
+      <span>Made with care for the built world.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // FAQ accordion (reused from index)
+  const faqItems = document.querySelectorAll('.faq-item');
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+
+  // Simple search filter (placeholder — keeps search bar functional)
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+  if (searchButton) {
+    searchButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      const q = searchInput.value.trim();
+      if (q) alert(`Search for "${q}" — this is a demo. On the home page, search filters articles.`);
+    });
+  }
+  if (searchInput) {
+    searchInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const q = searchInput.value.trim();
+        if (q) alert(`Search for "${q}" — this is a demo.`);
+      }
+    });
+  }
+
+  // Prevent form from actually submitting (demo)
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Thank you! Your message has been received (demo only).');
+      contactForm.reset();
+    });
+  }
+</script>
+
+</body>
+</html>

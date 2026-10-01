@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy · Graft Built Ideas</title>
+  <meta name="description" content="Privacy policy for Graft Built Ideas — how we collect, use, and protect your personal information.">
+  <link rel="canonical" href="https://graftbuilideas.com/privacy.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy · Graft Built Ideas">
+  <meta property="og:description" content="How we handle your data with care and transparency.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://graftbuilideas.com/privacy.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&h=630&fit=crop">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header (matches index/contact) */
+    .site-header {
+      border-bottom: 1px solid #e3e0db;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .logo-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+
+    .logo span {
+      font-weight: 400;
+      font-style: italic;
+      color: #9b7b5c;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #7a7a7a;
+      font-weight: 400;
+    }
+
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      border-top: 1px solid #e3e0db;
+      padding-top: 16px;
+      list-style: none;
+      align-items: center;
+    }
+
+    .nav-bar a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #2c2c2c;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .nav-bar a:hover,
+    .nav-bar a.active {
+      border-bottom-color: #9b7b5c;
+    }
+
+    .search-section {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      border: 1px solid #ddd9d2;
+      border-radius: 40px;
+      padding: 6px 16px;
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .search-wrapper input {
+      border: none;
+      background: transparent;
+      padding: 8px 0;
+      font-size: 0.9rem;
+      width: 100%;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+    }
+
+    .search-wrapper button {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #7a7a7a;
+    }
+
+    /* Privacy page layout */
+    .privacy-header {
+      margin: 56px 0 32px;
+      max-width: 800px;
+    }
+
+    .privacy-header h1 {
+      font-size: 3rem;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .privacy-header .subhead {
+      font-size: 1.1rem;
+      color: #4a4a4a;
+      border-left: 4px solid #9b7b5c;
+      padding-left: 20px;
+      font-style: italic;
+    }
+
+    .last-updated {
+      display: inline-block;
+      background: #f0ede8;
+      padding: 6px 16px;
+      border-radius: 40px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #6b5b4b;
+      margin-bottom: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    .privacy-content {
+      display: flex;
+      flex-direction: column;
+      max-width: 860px;
+      margin: 0 auto 64px;
+    }
+
+    .privacy-content h2 {
+      font-size: 1.9rem;
+      margin: 48px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e3e0db;
+    }
+
+    .privacy-content h3 {
+      font-size: 1.4rem;
+      margin: 32px 0 12px;
+      font-weight: 500;
+      color: #2c2c2c;
+    }
+
+    .privacy-content p {
+      margin-bottom: 18px;
+      color: #2e2e2e;
+    }
+
+    .privacy-content ul, .privacy-content ol {
+      margin: 16px 0 24px 24px;
+      color: #2e2e2e;
+    }
+
+    .privacy-content li {
+      margin-bottom: 8px;
+    }
+
+    .privacy-content strong {
+      font-weight: 600;
+      color: #1e1e1e;
+    }
+
+    .privacy-content a {
+      color: #9b7b5c;
+      border-bottom: 1px solid #ddd9d2;
+      transition: border-color 0.2s;
+    }
+
+    .privacy-content a:hover {
+      border-bottom-color: #9b7b5c;
+    }
+
+    .highlight-box {
+      background: #f5f2ee;
+      border-left: 4px solid #9b7b5c;
+      padding: 24px 28px;
+      border-radius: 0 12px 12px 0;
+      margin: 32px 0;
+    }
+
+    .highlight-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin: 24px 0 32px;
+      border: 1px solid #eae7e2;
+      border-radius: 12px;
+      background: white;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: #f5f2ee;
+      text-align: left;
+      padding: 14px 18px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #4a4a4a;
+      border-bottom: 1px solid #e3e0db;
+    }
+
+    td {
+      padding: 14px 18px;
+      border-bottom: 1px solid #f0ede8;
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Small print / footer */
+    .site-footer {
+      background: #1e1e1e;
+      color: #d4d0c8;
+      padding: 56px 0 32px;
+      margin-top: 64px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      color: white;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+
+    .footer-grid a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #3a3a3a;
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #9a9a9a;
+    }
+
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .privacy-header h1 {
+        font-size: 2.2rem;
+      }
+      .privacy-content h2 {
+        font-size: 1.6rem;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .nav-bar {
+        gap: 16px;
+      }
+      .logo-area {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-area">
+      <div class="logo">Graft <span>Built Ideas</span></div>
+      <div class="tagline">Architecture · Interiors · Materials</div>
+    </div>
+    <nav class="nav-bar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-section">
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+        <button id="searchButton" aria-label="Search">🔍</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="privacy-header">
+    <div class="last-updated">Last updated: 15 March 2025</div>
+    <h1>Privacy Policy</h1>
+    <p class="subhead">Your privacy matters. This policy explains what data we collect, why we collect it, and how you can control it — in plain language.</p>
+  </div>
+
+  <div class="privacy-content">
+    <p>At <strong>Graft Built Ideas</strong> ("we", "us", or "our"), we are committed to protecting the personal information of our readers, contributors, and visitors. This Privacy Policy describes how we collect, use, store, and share your information when you visit <strong>graftbuilideas.com</strong> (the "Site") or interact with us through email, forms, or social media.</p>
+
+    <p>By using the Site, you agree to the practices described in this policy. If you do not agree, please discontinue use of the Site.</p>
+
+    <div class="highlight-box">
+      <p><strong>In short:</strong> We collect only what we need to run an independent editorial publication — your email if you contact us, basic analytics to understand what content resonates, and cookies to improve your experience. We never sell your data.</p>
+    </div>
+
+    <h2>1. Information we collect</h2>
+    <p>We collect information in three main ways:</p>
+
+    <h3>a. Information you give us voluntarily</h3>
+    <ul>
+      <li><strong>Contact & pitch forms:</strong> When you fill out our contact form or email us, we collect your name, email address, subject, and message content.</li>
+      <li><strong>Newsletter subscription:</strong> If you subscribe to our newsletter, we collect your email address and, optionally, your first name.</li>
+      <li><strong>Comments & feedback:</strong> If you leave a comment or provide feedback on an article, we may collect your name and email (if provided).</li>
+    </ul>
+
+    <h3>b. Information collected automatically</h3>
+    <p>When you visit the Site, we and our analytics partners may automatically collect:</p>
+    <ul>
+      <li>IP address (anonymized where possible)</li>
+      <li>Browser type and version, device type, operating system</li>
+      <li>Pages visited, time spent, referring URLs, and clickstream data</li>
+      <li>Approximate location (country/city level, derived from IP)</li>
+    </ul>
+
+    <h3>c. Information from cookies and similar technologies</h3>
+    <p>We use cookies and similar tracking technologies to enhance your browsing experience, analyze site traffic, and remember your preferences. For detailed information, please see our <a href="cookies.html">Cookies Policy</a>.</p>
+
+    <h2>2. How we use your information</h2>
+    <p>We use the information we collect for the following purposes:</p>
+    <ul>
+      <li><strong>To respond to your enquiries:</strong> If you contact us via the form or email, we use your details to reply.</li>
+      <li><strong>To send newsletters:</strong> If you opt in, we use your email to send editorial updates. You can unsubscribe at any time.</li>
+      <li><strong>To improve our content and site:</strong> Analytics help us understand which articles are read and how visitors navigate the Site.</li>
+      <li><strong>To maintain security:</strong> We may use data to detect and prevent fraud, spam, or abuse.</li>
+      <li><strong>To comply with legal obligations:</strong> Where required by law, we may process your data to meet regulatory requirements.</li>
+    </ul>
+
+    <h2>3. Legal basis for processing (GDPR)</h2>
+    <p>If you are located in the European Economic Area (EEA), our legal basis for processing your personal data depends on the context:</p>
+    <ul>
+      <li><strong>Consent:</strong> For newsletter subscriptions and non-essential cookies, we rely on your explicit consent.</li>
+      <li><strong>Legitimate interest:</strong> For site analytics, security, and responding to enquiries, we process data based on our legitimate interest in running and improving an editorial publication.</li>
+      <li><strong>Contract:</strong> If you enter into a contributor agreement or partnership with us, processing may be necessary to fulfil that contract.</li>
+      <li><strong>Legal obligation:</strong> Where we are required to retain or disclose data by law.</li>
+    </ul>
+
+    <h2>4. How we share your information</h2>
+    <p>We do <strong>not</strong> sell, rent, or trade your personal information. We may share data with:</p>
+    <ul>
+      <li><strong>Service providers:</strong> Trusted third parties who help us operate the Site — such as email delivery services (e.g., Mailchimp), analytics providers (e.g., Plausible or Google Analytics), and hosting providers. These providers only access data necessary to perform their functions and are bound by confidentiality agreements.</li>
+      <li><strong>Legal authorities:</strong> If required by law, court order, or to protect the rights, property, or safety of Graft Built Ideas, our readers, or the public.</li>
+      <li><strong>Business transfers:</strong> In the unlikely event of a merger, acquisition, or sale of assets, your data may be transferred as part of that transaction. We will notify you before your data is transferred and becomes subject to a different privacy policy.</li>
+    </ul>
+
+    <h2>5. International data transfers</h2>
+    <p>Our Site is hosted within the European Union. Some of our service providers may be located outside the EEA (for example, in the United States). When we transfer data outside the EEA, we ensure appropriate safeguards are in place, such as Standard Contractual Clauses approved by the European Commission, to protect your information.</p>
+
+    <h2>6. Data retention</h2>
+    <p>We retain personal data only for as long as necessary to fulfil the purposes described in this policy:</p>
+    <ul>
+      <li><strong>Contact form submissions:</strong> Retained for up to 24 months to handle follow-up enquiries.</li>
+      <li><strong>Newsletter subscriptions:</strong> Retained until you unsubscribe, plus a short period thereafter for suppression purposes.</li>
+      <li><strong>Analytics data:</strong> Retained for a maximum of 26 months in an aggregated or anonymized form.</li>
+    </ul>
+    <p>When data is no longer needed, we securely delete or anonymize it.</p>
+
+    <h2>7. Your rights</h2>
+    <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Right</th><th>What it means</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Access</strong></td><td>You can request a copy of the personal data we hold about you.</td></tr>
+          <tr><td><strong>Rectification</strong></td><td>You can ask us to correct inaccurate or incomplete data.</td></tr>
+          <tr><td><strong>Erasure</strong></td><td>You can request deletion of your data ("right to be forgotten").</td></tr>
+          <tr><td><strong>Restriction</strong></td><td>You can ask us to limit how we use your data.</td></tr>
+          <tr><td><strong>Portability</strong></td><td>You can request your data in a structured, machine-readable format.</td></tr>
+          <tr><td><strong>Objection</strong></td><td>You can object to processing based on legitimate interests.</td></tr>
+          <tr><td><strong>Withdraw consent</strong></td><td>Where processing is based on consent, you can withdraw it at any time.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>To exercise any of these rights, please email <a href="mailto:privacy@graftbuilideas.com">privacy@graftbuilideas.com</a>. We will respond within 30 days. You also have the right to lodge a complaint with your local data protection authority.</p>
+
+    <h2>8. Security</h2>
+    <p>We take reasonable technical and organizational measures to protect your personal information from unauthorized access, loss, or misuse. These include encrypted connections (HTTPS), access controls, and regular reviews of our data practices. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
+
+    <h2>9. Children's privacy</h2>
+    <p>Our Site is not directed to children under 16. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
+
+    <h2>10. Third-party links</h2>
+    <p>Our articles may contain links to external websites. We are not responsible for the privacy practices or content of those sites. We encourage you to read the privacy policies of any third-party sites you visit.</p>
+
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page and, for significant changes, notify you via a prominent notice on the Site or by email (if you have subscribed). We encourage you to review this page periodically.</p>
+
+    <h2>12. Contact us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact our privacy team:</p>
+    <ul>
+      <li><strong>Email:</strong> <a href="mailto:privacy@graftbuilideas.com">privacy@graftbuilideas.com</a></li>
+      <li><strong>Postal address:</strong> Graft Built Ideas · Privacy Office · Casella Postale 47 · 20121 Milano, Italy</li>
+    </ul>
+
+    <div class="highlight-box" style="margin-top: 48px;">
+      <p><strong>Your trust is important to us.</strong> We are an independent publication, not a data broker. If you ever have concerns about how your information is handled, please reach out — we’ll do our best to make it right.</p>
+    </div>
+  </div>
+</main>
+
+<!-- FOOTER (matches index/contact) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="color: white; margin-bottom: 16px;">Graft <span style="color: #b99b7a;">Built Ideas</span></div>
+        <p style="font-size: 0.85rem; max-width: 280px;">An independent editorial publication exploring interior design, architecture, and the built environment.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Space Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Graft Built Ideas. All rights reserved.</span>
+      <span>Made with care for the built world.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Simple search placeholder (consistent with contact page)
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+  if (searchButton) {
+    searchButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      const q = searchInput.value.trim();
+      if (q) alert(`Search for "${q}" — this is a demo. On the home page, search filters articles.`);
+    });
+  }
+  if (searchInput) {
+    searchInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const q = searchInput.value.trim();
+        if (q) alert(`Search for "${q}" — this is a demo.`);
+      }
+    });
+  }
+</script>
+
+</body>
+</html>

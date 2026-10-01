@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · Graft Built Ideas</title>
+  <meta name="description" content="About Graft Built Ideas — an independent editorial publication exploring interior design, architecture, materials, and the built environment.">
+  <meta name="keywords" content="interior design, architecture, about, editorial, design journal, graft built ideas">
+  <link rel="canonical" href="https://graftbuilideas.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About · Graft Built Ideas">
+  <meta property="og:description" content="An independent editorial publication exploring interior design, architecture, and the built environment.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://graftbuilideas.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1200&h=630&fit=crop">
+  <!-- Schema markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Graft Built Ideas",
+    "description": "Interior design and architecture journal with practical guides and long-form articles.",
+    "url": "https://graftbuilideas.com/about.html",
+    "author": {
+      "@type": "Person",
+      "name": "Elena Marchetti"
+    }
+  }
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #faf9f7;
+      color: #1e1e1e;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    .site-header {
+      border-bottom: 1px solid #e3e0db;
+      background: #faf9f7;
+      padding: 24px 0 16px;
+    }
+
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .logo-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+    }
+
+    .logo span {
+      font-weight: 400;
+      font-style: italic;
+      color: #9b7b5c;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #7a7a7a;
+      font-weight: 400;
+    }
+
+    /* Navigation */
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 28px;
+      border-top: 1px solid #e3e0db;
+      padding-top: 16px;
+      list-style: none;
+    }
+
+    .nav-bar a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #2c2c2c;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .nav-bar a:hover {
+      border-bottom-color: #9b7b5c;
+    }
+
+    .nav-bar a.active {
+      border-bottom-color: #9b7b5c;
+      font-weight: 600;
+    }
+
+    /* Search */
+    .search-section {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: white;
+      border: 1px solid #ddd9d2;
+      border-radius: 40px;
+      padding: 6px 16px;
+      width: 100%;
+      max-width: 360px;
+    }
+
+    .search-wrapper input {
+      border: none;
+      background: transparent;
+      padding: 8px 0;
+      font-size: 0.9rem;
+      width: 100%;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+    }
+
+    .search-wrapper button {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #7a7a7a;
+    }
+
+    /* About hero */
+    .about-hero {
+      margin: 48px 0 56px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .about-hero h1 {
+      font-size: 3rem;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .about-hero p {
+      font-size: 1.15rem;
+      color: #3a3a3a;
+      margin-bottom: 18px;
+      max-width: 520px;
+    }
+
+    .about-hero img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.06);
+    }
+
+    .hero-accent {
+      display: inline-block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-weight: 600;
+      color: #9b7b5c;
+      margin-bottom: 16px;
+      background: #f0ebe4;
+      padding: 4px 14px;
+      border-radius: 30px;
+    }
+
+    /* Mission / values */
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 28px;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      border-bottom: 1px solid #e3e0db;
+      padding-bottom: 12px;
+    }
+
+    .mission-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin: 56px 0;
+    }
+
+    .mission-card {
+      background: white;
+      border: 1px solid #eae7e2;
+      border-radius: 8px;
+      padding: 32px 28px;
+    }
+
+    .mission-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    .mission-card p {
+      font-size: 0.95rem;
+      color: #4a4a4a;
+    }
+
+    /* Team section */
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      margin: 40px 0 64px;
+    }
+
+    .team-card {
+      background: white;
+      border: 1px solid #eae7e2;
+      border-radius: 8px;
+      padding: 28px 24px;
+      text-align: center;
+    }
+
+    .team-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 18px;
+    }
+
+    .team-card h4 {
+      font-size: 1.2rem;
+      margin-bottom: 4px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+
+    .team-card .role {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9b7b5c;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .team-card p {
+      font-size: 0.9rem;
+      color: #5a5a5a;
+      line-height: 1.5;
+    }
+
+    /* Numbers / stats */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      background: white;
+      border: 1px solid #eae7e2;
+      border-radius: 8px;
+      padding: 40px 32px;
+      margin: 56px 0;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      font-weight: 600;
+      color: #9b7b5c;
+      line-height: 1.2;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6b6b6b;
+      margin-top: 6px;
+      font-weight: 500;
+    }
+
+    /* Editorial statement */
+    .editorial-statement {
+      background: #f2efe9;
+      border-radius: 8px;
+      padding: 48px;
+      margin: 56px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .editorial-statement blockquote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      line-height: 1.4;
+      font-style: italic;
+      color: #1e1e1e;
+      margin-bottom: 16px;
+    }
+
+    .editorial-statement cite {
+      font-style: normal;
+      font-size: 0.9rem;
+      color: #6b6b6b;
+      font-weight: 500;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .editorial-statement p {
+      font-size: 0.95rem;
+      color: #3a3a3a;
+    }
+
+    /* Contact strip */
+    .contact-strip {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1e1e1e;
+      color: #d4d0c8;
+      padding: 32px 40px;
+      border-radius: 8px;
+      margin: 48px 0 64px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .contact-strip h3 {
+      color: white;
+      font-size: 1.3rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    .contact-strip a {
+      background: #9b7b5c;
+      color: white;
+      padding: 10px 24px;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .contact-strip a:hover {
+      background: #b08d6a;
+    }
+
+    /* Footer */
+    .site-footer {
+      background: #1e1e1e;
+      color: #d4d0c8;
+      padding: 56px 0 32px;
+      margin-top: 64px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+
+    .footer-grid h5 {
+      color: white;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+
+    .footer-grid ul {
+      list-style: none;
+    }
+
+    .footer-grid li {
+      margin-bottom: 10px;
+      font-size: 0.85rem;
+    }
+
+    .footer-grid a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #3a3a3a;
+      padding-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #9a9a9a;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .about-hero {
+        grid-template-columns: 1fr;
+      }
+      .about-hero img {
+        height: 320px;
+      }
+      .mission-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .stats-row {
+        grid-template-columns: 1fr 1fr;
+      }
+      .editorial-statement {
+        grid-template-columns: 1fr;
+        padding: 32px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .about-hero h1 {
+        font-size: 2.2rem;
+      }
+      .mission-grid {
+        grid-template-columns: 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+      .stats-row {
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .nav-bar {
+        gap: 16px;
+      }
+      .logo-area {
+        flex-direction: column;
+        gap: 8px;
+      }
+      .contact-strip {
+        flex-direction: column;
+        text-align: center;
+        padding: 28px 20px;
+      }
+      .editorial-statement blockquote {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-area">
+      <div class="logo">Graft <span>Built Ideas</span></div>
+      <div class="tagline">Architecture · Interiors · Materials</div>
+    </div>
+    <nav class="nav-bar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-section">
+      <div class="search-wrapper">
+        <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+        <button id="searchButton" aria-label="Search">🔍</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <!-- HERO -->
+  <section class="about-hero">
+    <div>
+      <span class="hero-accent">About the journal</span>
+      <h1>Design that thinks.<br>Writing that builds.</h1>
+      <p>Graft Built Ideas is an independent editorial publication for people who care about the spaces they inhabit. We publish long-form articles, practical guides, and critical essays on interior design, architecture, materials, and the built environment.</p>
+      <p>Founded in 2021, we’ve grown into a trusted resource for design professionals, students, and enthusiasts who want more than trends — they want understanding.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1000&h=800&fit=crop" alt="Editorial desk with architectural drawings and material samples">
+  </section>
+
+  <!-- MISSION / VALUES -->
+  <h2 class="section-title">What we stand for</h2>
+  <div class="mission-grid">
+    <div class="mission-card">
+      <h3>Depth over noise</h3>
+      <p>We don’t chase clickbait. Every article is researched, edited, and designed to give you lasting insight — not just a quick scroll.</p>
+    </div>
+    <div class="mission-card">
+      <h3>Materials matter</h3>
+      <p>We believe good design starts with honest materials: how they age, how they feel, and how they shape the way we live.</p>
+    </div>
+    <div class="mission-card">
+      <h3>Practice & poetry</h3>
+      <p>We bridge the practical and the poetic — from floor plan logic to the emotional pull of light on a wall.</p>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div>
+      <div class="stat-number">120+</div>
+      <div class="stat-label">In-depth articles</div>
+    </div>
+    <div>
+      <div class="stat-number">24</div>
+      <div class="stat-label">Expert contributors</div>
+    </div>
+    <div>
+      <div class="stat-number">40k</div>
+      <div class="stat-label">Monthly readers</div>
+    </div>
+    <div>
+      <div class="stat-number">7</div>
+      <div class="stat-label">Core categories</div>
+    </div>
+  </div>
+
+  <!-- EDITORIAL STATEMENT -->
+  <div class="editorial-statement">
+    <div>
+      <blockquote>“We don’t just write about rooms. We write about how people live in them.”</blockquote>
+      <cite>— Elena Marchetti, Editor-in-Chief</cite>
+    </div>
+    <div>
+      <p>Our editorial approach is simple: treat design as a form of knowledge. That means asking better questions, talking to practitioners, and refusing to reduce complex ideas to soundbites. Whether we’re unpacking the anatomy of a floor plan or exploring the return of the reading chair, we aim to leave you with something you can actually use — and think about.</p>
+      <p style="margin-top: 16px;">We’re proudly independent. No sponsored content, no pay-to-play features. Just careful observation and generous sharing.</p>
+    </div>
+  </div>
+
+  <!-- TEAM -->
+  <h2 class="section-title">Who we are</h2>
+  <div class="team-grid">
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop" alt="Portrait of Elena Marchetti">
+      <h4>Elena Marchetti</h4>
+      <div class="role">Editor-in-Chief</div>
+      <p>Architect and writer based in Milan. Elena founded Graft Built Ideas to create a space for slow, thoughtful design journalism.</p>
+    </div>
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop" alt="Portrait of Marco Ruiz">
+      <h4>Marco Ruiz</h4>
+      <div class="role">Architecture Editor</div>
+      <p>Marco is a practicing architect and educator. He leads our coverage of built projects, urbanism, and sustainable design.</p>
+    </div>
+    <div class="team-card">
+      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop" alt="Portrait of Sofia Lang">
+      <h4>Sofia Lang</h4>
+      <div class="role">Materials & Interiors Editor</div>
+      <p>Sofia is a material researcher and interior designer. She writes about surfaces, tactility, and the stories embedded in things.</p>
+    </div>
+  </div>
+
+  <!-- CONTACT STRIP -->
+  <div class="contact-strip">
+    <h3>Have a story idea or want to contribute?</h3>
+    <a href="contact.html">Get in touch →</a>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="color: white; margin-bottom: 16px;">Graft <span style="color: #b99b7a;">Built Ideas</span></div>
+        <p style="font-size: 0.85rem; max-width: 280px;">An independent editorial publication exploring interior design, architecture, and the built environment.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#">Interior Design</a></li>
+          <li><a href="#">Architecture</a></li>
+          <li><a href="#">Materials</a></li>
+          <li><a href="#">Space Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>About</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Follow</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Graft Built Ideas. All rights reserved.</span>
+      <span>Made with care for the built world.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // --- SEARCH (simple redirect / filter placeholder) ---
+  const searchInput = document.getElementById('searchInput');
+  const searchButton = document.getElementById('searchButton');
+
+  function handleSearch() {
+    const query = searchInput.value.trim();
+    if (query) {
+      // In a real site, this would redirect to search results
+      alert(`Searching for: "${query}" — (demo only, would navigate to search results)`);
+    }
+  }
+
+  searchButton.addEventListener('click', handleSearch);
+  searchInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') handleSearch();
+  });
+</script>
+
+</body>
+</html>
